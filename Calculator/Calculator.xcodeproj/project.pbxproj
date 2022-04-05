@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8CF14BF27FC816900BCCEAC /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CF14BE27FC816900BCCEAC /* RoundButton.swift */; };
 		F8DDCF2C27FB2915001E7D96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDCF2B27FB2915001E7D96 /* AppDelegate.swift */; };
 		F8DDCF2E27FB2915001E7D96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDCF2D27FB2915001E7D96 /* SceneDelegate.swift */; };
 		F8DDCF3027FB2915001E7D96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDCF2F27FB2915001E7D96 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8CF14BE27FC816900BCCEAC /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		F8DDCF2827FB2915001E7D96 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DDCF2B27FB2915001E7D96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8DDCF2D27FB2915001E7D96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F8DDCF3427FB2916001E7D96 /* Assets.xcassets */,
 				F8DDCF3627FB2916001E7D96 /* LaunchScreen.storyboard */,
 				F8DDCF3927FB2916001E7D96 /* Info.plist */,
+				F8CF14BE27FC816900BCCEAC /* RoundButton.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CF14BF27FC816900BCCEAC /* RoundButton.swift in Sources */,
 				F8DDCF3027FB2915001E7D96 /* ViewController.swift in Sources */,
 				F8DDCF2C27FB2915001E7D96 /* AppDelegate.swift in Sources */,
 				F8DDCF2E27FB2915001E7D96 /* SceneDelegate.swift in Sources */,
@@ -456,7 +460,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
